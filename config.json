@@ -1,0 +1,29 @@
+{
+
+  "ignoreFid": [
+    "244128"
+  ],
+
+  "apiReqSettings": {
+    "baseApiUrl": "https://build.far.quest/farcaster/v2",
+    "header": {
+      "Accept": "application/json",
+      "API-KEY": "6ZJBA-VN1TD-1341L-2RZDZ-5H4LD"
+    }
+  },
+
+  "defaultCsvOutputName": "castReplies.csv",
+
+  "token" : {
+    "address": "0x4ed4E862860beD51a9570b96d89aF5E1B0Efefed",
+    "abi": "lib/abi/ERC20.json"
+  },
+
+  "chain" : {
+    "rpcUrl": "https://mainnet.base.org",
+    "name": "BASE",
+    "id": 8453,
+    "explorer": "https://basescan.org"
+  }
+}
+

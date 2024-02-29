@@ -1,0 +1,29 @@
+{
+  "name": "Warpcast Token Tipper",
+  "version": "1.0.0",
+  "description": "Scripts to save cast commenters and send tokens",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npx mocha --recursive ./tests",
+    "saveReplies": "node index.js SAVE_REPLIES",
+    "sendTokens": "node index.js TIP_REPLIES"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.0.6",
+    "axios": "^1.6.7",
+    "chalk": "^5.3.0",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.11.1",
+    "node-fetch": "^3.2.6",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "chai": "^5.1.0",
+    "mocha": "^10.3.0"
+  }
+}
