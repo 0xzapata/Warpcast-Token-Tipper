@@ -1,5 +1,5 @@
 {
-  "name": "Warpcast Token Tipper",
+  "name": "warpcast-token-tipper",
   "version": "1.0.0",
   "description": "Scripts to save cast commenters and send tokens",
   "main": "index.js",
