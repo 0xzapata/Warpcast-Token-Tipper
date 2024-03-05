@@ -20,6 +20,13 @@ const parseCastUrl = (url) => {
  * @param {string} url - The URL to save replies from.
  * @param {string} [filePath] - The path to the CSV file to save the replies to. If not provided, it defaults to the value in the config file.
  * @throws {Error} If the URL is not provided.
+ * @returns {Promise<Array>} A promise that resolves to an array of filtered cast replies. Each reply is an object with the following properties:
+ * - hash: The hash of the reply.
+ * - address: The address of the author of the reply.
+ * - isCustodyAddress: A boolean indicating whether the address is a custody address.
+ * - fid: The fid of the author of the reply.
+ * - displayName: The display name of the author of the reply.
+ * - text: The text of the reply.
  */
 export const saveRepliesToCsv = async (url, filePath=undefined) => {
 
@@ -54,8 +61,9 @@ export const saveRepliesToCsv = async (url, filePath=undefined) => {
     })
 
   console.log(filteredCastReplies)
-
   jsonToCsv(filteredCastReplies, outputFile)
+
+  return filteredCastReplies
 }
 
 export default saveRepliesToCsv

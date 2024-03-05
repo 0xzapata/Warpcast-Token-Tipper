@@ -1,6 +1,6 @@
 {
   "name": "warpcast-token-tipper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Scripts to save cast commenters and send tokens",
   "main": "index.js",
   "type": "module",
@@ -9,8 +9,12 @@
     "saveReplies": "node index.js SAVE_REPLIES",
     "sendTokens": "node index.js TIP_REPLIES"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0xzapata/warpcast-token-tipper.git"
+  },
+  "keywords": ["warpcast", "token sender", "base"],
+  "author": "0xzapata",
   "license": "ISC",
   "dependencies": {
     "@types/node": "^18.0.6",

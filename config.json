@@ -24,6 +24,8 @@
     "name": "BASE",
     "id": 8453,
     "explorer": "https://basescan.org"
-  }
+  },
+
+  "csvPath": "csv/"
 }
 
