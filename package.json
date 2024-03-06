@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/0xzapata/warpcast-token-tipper.git"
+    "url": "https://github.com/0xzapata/warpcast-token-tipper"
   },
   "keywords": ["warpcast", "token sender", "base"],
   "author": "0xzapata",
