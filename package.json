@@ -1,6 +1,6 @@
 {
   "name": "warpcast-token-tipper",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Scripts to save cast commenter and send tokens",
   "main": "index.js",
   "type": "module",
